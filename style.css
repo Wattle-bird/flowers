@@ -2,7 +2,7 @@
 body {
   font-family: 'Inconsolata', monospace;
   background: tan;
-  max-width: 400px;
+  max-width: 320px;
   margin: 20px auto;
 }
 
@@ -13,6 +13,17 @@ body {
 }
 
 @keyframes wiggly {
-  from { transform: matrix(1,0,-0.3,1,0,0) }
-  to { transform: matrix(1,0,0.3,1,0,0) }
+  from { transform: matrix(1,0,-0.2,1,0,0) }
+  to { transform: matrix(1,0,0.2,1,0,0) }
+}
+
+#grid {
+  border: 10px solid brown;
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+}
+
+#grid>* {
+  border: 1px dotted brown;
 }

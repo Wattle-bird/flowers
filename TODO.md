@@ -1,6 +1,6 @@
 - X Rendering a flower on demand
-- Initialize the grid
-- Draw the grid
+- X Initialize the grid
+- X Draw the grid
 - Save and load
 - Auto scale UI
 - Move
